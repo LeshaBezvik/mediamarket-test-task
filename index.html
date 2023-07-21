@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__body">
+                    <a class="header__logo" href="#">
+                        <img src="img/logo.webp" alt="">
+                    </a>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li>
+                                <a href="#menu-link1" data-lang="menu1" class="header__link">Registration</a>
+                            </li>
+                            <li>
+                                <a href="#menu-link2" data-lang="menu2" class="header__link">About</a>
+                            </li>
+                            <li>
+                                <a href="#menu-link3" data-lang="menu3" class="header__link">Gallery</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button id="lang-switch">Змінити мову</button>
+                </div>
+            </div>
+        </header>
+        <main class="content">
+            <section class="video-registration-section">
+                <div class="container">
+
+
+                    <div id="menu-link1" class="video-registration-section__wrapper">
+                        <div class="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/BHACKCNDMW8" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="registration-container">
+                            <form id="contactForm">
+                                <div class="input-name-wrapper">
+                                    <label data-lang="form1" for="name">Name</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+
+                                <div class="input-surname-wrapper">
+                                    <label data-lang="form2" for="surname">Surname</label>
+                                    <input type="text" id="surname" name="surname" required>
+                                </div>
+
+                                <div class="input-tel-wrapper">
+                                    <label data-lang="form3" for="name">Phone</label>
+                                    <input type="tel" id="tel" name="tel" required placeholder="+38(000) 000 00 00">
+                                </div>
+    
+                                <div class="input-email-wrapper">
+                                    <label data-lang="form4" id="email-label" for="email">Email</label>
+                                    <input type="email" id="email" name="email" required placeholder="johndoe@gmail.com">
+                                    <div class="error-message" id="emailError"></div>
+                                </div>
+    
+                                <div class="submit-wrapper">
+                                    <div class="submit-btn">
+                                        <button data-lang="form5" type="submit" id="submitBtn">Registration</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <div id="menu-link2"></div>
+            <section class="text-section">
+                <div class="container">
+                    <div class="text-section__info-block">
+                        <h2 data-lang="text1" id="menu-link2" class="h2-title text-section__title">About us</h2>
+                        <p data-lang="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias soluta quisquam itaque quae mollitia, vero illo, amet beatae esse similique illum culpa, at quia maxime doloremque? Accusamus, officiis? Quam, sint ipsum. Esse unde temporibus blanditiis quia ut quibusdam impedit soluta nobis possimus asperiores nisi molestiae facere, consequatur placeat ipsa id nostrum eveniet? Provident, labore, ipsam quibusdam incidunt modi perspiciatis libero accusantium ipsum similique porro voluptate qui consectetur laborum sunt molestiae esse. Consectetur, amet quod eum veniam nisi voluptate ullam repellendus alias beatae blanditiis laudantium eius necessitatibus excepturi harum error cumque. Expedita reiciendis itaque nisi voluptatibus, vero dolor sequi excepturi blanditiis deserunt sunt, exercitationem, beatae fugit consequuntur quaerat distinctio eligendi optio. Dolorum totam, ipsa at cupiditate soluta sed doloremque molestiae fugit optio perspiciatis eos officia id suscipit harum hic. Molestias provident ab quidem doloribus, sunt dolore asperiores nemo quas possimus esse distinctio ut mollitia blanditiis eaque voluptatem sequi cumque laudantium soluta, neque deleniti laborum nisi? Aut dignissimos, aspernatur temporibus eum quae perspiciatis id nesciunt. Repellendus ab quis a, labore aperiam corporis temporibus dolore tempore! Aspernatur ipsa quis labore, illo tempora numquam eius amet praesentium possimus fugiat minus fugit? Numquam, placeat, blanditiis unde ex, perferendis accusantium totam ea natus harum aut rerum.</p>
+                        <p data-lang="text3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias soluta quisquam itaque quae mollitia, vero illo, amet beatae esse similique illum culpa, at quia maxime doloremque? Accusamus, officiis? Quam, sint ipsum. Esse unde temporibus blanditiis quia ut quibusdam impedit soluta nobis possimus asperiores nisi molestiae facere, consequatur placeat ipsa id nostrum eveniet? Provident, labore, ipsam quibusdam incidunt modi perspiciatis libero accusantium ipsum similique porro voluptate qui consectetur laborum sunt molestiae esse. Consectetur, amet quod eum veniam nisi voluptate ullam repellendus alias beatae blanditiis laudantium eius necessitatibus excepturi harum error cumque. Expedita reiciendis itaque nisi voluptatibus, vero dolor sequi excepturi blanditiis deserunt sunt, exercitationem, beatae fugit consequuntur quaerat distinctio eligendi optio. Dolorum totam, ipsa at cupiditate soluta sed doloremque molestiae fugit optio perspiciatis eos officia id suscipit harum hic. Molestias provident ab quidem doloribus, sunt dolore asperiores nemo quas possimus esse distinctio ut mollitia blanditiis eaque voluptatem sequi cumque laudantium soluta, neque deleniti laborum nisi? Aut dignissimos, aspernatur temporibus eum quae perspiciatis id nesciunt. Repellendus ab quis a, labore aperiam corporis temporibus dolore tempore! Aspernatur ipsa quis labore, illo tempora numquam eius amet praesentium possimus fugiat minus fugit? Numquam, placeat, blanditiis unde ex, perferendis accusantium totam ea natus harum aut rerum.</p>    
+                    </div>
+                </div>
+            </section>
+
+            <div id="menu-link3"></div>
+            <section class="slider-section">
+                <div class="container">
+                    <h2 data-lang="slider1" class="h2-title slider-section__title">Gallery</h2>
+                    <div class="slider-section__wrapper">
+                        <!-- Slider main container -->
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src="img/slider1.png" alt="" class="swiper-slide__img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/slider2.jpg" alt="" class="swiper-slide__img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/slider3.jpeg" alt="" class="swiper-slide__img">
+                            </div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                        
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        
+                            <!-- If we need scrollbar -->
+                            <div class="swiper-scrollbar"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div data-lang="footer1" class="footer__name">Olexii Bezvikonnyi</div>
+                <div class="footer__telegram">Telegram: <a class="footer__telegram-link" href="https://t.me/bzvknnyi">@bzvknnyi</a></div>
+                <a class="footer__mail-link" href="mailto:bezvik5@gmail.com">bezvik5@gmail.com</a>
+                <a class="footer__tel-link" href="tel:+380953129779">+38(095) 312 9779</a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
