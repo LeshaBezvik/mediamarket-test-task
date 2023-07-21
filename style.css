@@ -436,13 +436,13 @@ section.text-section {
     background-image: url('img/nature-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 .text-section__info-block {
     background-color: #ffffff75;
     padding: 40px;
     backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
     width: 80%;
     margin: auto;
     border-radius: 20px;
@@ -467,7 +467,6 @@ section.text-section {
 @media(max-width: 767px) {
     .text-section__info-block {
         width: 100%;
-        background-attachment: initial;
         padding: 20px 10px;
     }
     .text-section p {
