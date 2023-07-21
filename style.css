@@ -473,8 +473,7 @@ section.text-section {
         font-size: 14px;
     }
     section.text-section {
-        background-image: none;
-        background-color: #a55555;
+        background-attachment: initial;
         padding: 40px 0;
     }
 }
