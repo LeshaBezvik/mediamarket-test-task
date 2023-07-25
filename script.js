@@ -90,7 +90,7 @@ const swiper = new Swiper('.swiper', {
 
 
 
-document.getElementById('registration-form').addEventListener('submit', function(event) {
+document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
     var formData = new FormData(this);
